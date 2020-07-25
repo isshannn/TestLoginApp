@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button"
+        android:layout_margin="12dp"
+        android:orientation="vertical"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".AllUsers_Activity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="1dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TextViewUserHeader"
+                android:text="Name: "
+                tools:ignore="HardCodedText"/>
+
+            <TextView
+                style="@style/TextViewUserContent"
+                android:id="@+id/common_user_name"
+                tools:text="Samvas Majhi"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="1dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TextViewUserHeader"
+                android:text="UserName: "
+                tools:ignore="HardCodedText"/>
+
+            <TextView
+                style="@style/TextViewUserContent"
+                android:id="@+id/common_user_username"
+                tools:text="isshannn"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="1dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TextViewUserHeader"
+                android:text="Email: "
+                tools:ignore="HardCodedText"/>
+
+            <TextView
+                style="@style/TextViewUserContent"
+                android:id="@+id/common_user_email"
+                tools:text="9439489555"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TextViewUserHeader"
+                android:text="Contact Number: "
+                tools:ignore="HardCodedText"/>
+
+            <TextView
+                style="@style/TextViewUserContent"
+                android:id="@+id/common_user_mobile"
+                tools:text="9439489555"/>
+
+        </LinearLayout>
+
+</LinearLayout>
