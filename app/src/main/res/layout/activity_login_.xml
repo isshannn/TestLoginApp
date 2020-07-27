@@ -9,7 +9,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/wallpaper"
+        android:src="@drawable/login"
         android:scaleType="centerCrop"/>
 
     <TextView
@@ -31,6 +31,7 @@
             tools:ignore="HardcodedText">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:textColor="#7b7c7b"
                 android:id="@+id/UserNameLogin"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -48,6 +49,7 @@
             tools:ignore="HardcodedText">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:textColor="#7b7c7b"
                 android:id="@+id/PasswordLogin"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -68,6 +70,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:text="Forgot Password?"
+            android:textColor="#fbe5fd"
             android:textSize="15sp"
             android:textStyle="bold"
             android:layout_marginTop="5dp"
@@ -89,6 +92,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="18sp"
         android:text="Don't have an account? Sign Up"
+        android:textColor="#fbe5fd"
         android:textSize="18sp"
         tools:ignore="HardCodedText"/>
 

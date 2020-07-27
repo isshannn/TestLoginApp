@@ -9,7 +9,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/wallpaper"
+        android:src="@drawable/profile"
         android:scaleType="centerCrop"/>
 
     <TextView
@@ -121,6 +121,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="18sp"
         android:text="Already have an account? Sign In"
+        android:textColor="#fdefe5"
         android:textSize="18sp"
         tools:ignore="HardCodedText"/>
 

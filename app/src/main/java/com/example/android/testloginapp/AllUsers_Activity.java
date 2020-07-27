@@ -43,7 +43,7 @@ public class AllUsers_Activity extends AppCompatActivity {
         rootnode= FirebaseDatabase.getInstance().getReference().child("user");
 
 
-        rootnode.addValueEventListener(new ValueEventListener() {
+        rootnode.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                 for (DataSnapshot dataSnapshot : snapshot.getChildren()){
@@ -59,6 +59,5 @@ public class AllUsers_Activity extends AppCompatActivity {
                 Toast.makeText(getApplicationContext(), error.toException().getMessage(), Toast.LENGTH_SHORT).show();
             }
         });
-
     }
 }
